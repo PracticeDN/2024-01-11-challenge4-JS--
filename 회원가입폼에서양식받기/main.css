@@ -1,0 +1,97 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 60%;
+  border: 1px solid #c2c2c2;
+  border-radius: 20px;
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+}
+
+.container .abc {
+  text-align: center;
+  font-size: 25px;
+}
+
+.container .inputsContainer {
+  width: 70%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 0 auto;
+  margin-bottom: 45px;
+}
+
+.container .inputsContainer .input {
+  width: 100%;
+  height: 35px;
+}
+
+.container .inputsContainer .phoneNumberContainer {
+  display: flex;
+  width: 100%;
+  gap: 5px;
+}
+
+.container .inputsContainer .phoneNumberContainer .phoneNumberInput {
+  width: 100%;
+  height: 30px;
+}
+
+.container .inputsContainer .authContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container .inputsContainer .authContainer .authTransfer {
+  display: flex;
+  gap: 10px;
+}
+
+.container .inputsContainer .authContainer .authCompleted {
+  display: flex;
+  gap: 10px;
+}
+
+.container .inputsContainer .buttonContainer2 {
+  width: 100%;
+  height: 30px;
+  display: flex;
+}
+
+.container .inputsContainer .button {
+  height: 20px;
+}
+.container .inputsContainer .button2 {
+  height: 20px;
+}
+.container .inputsContainer .buttonContainer2 .button3 {
+  height: 40px;
+  width: 100%;
+}
+
+.container .inputsContainer .choose {
+  width: 100%;
+  height: 40px;
+}
+.container .inputsContainer .gender {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container .inputsContainer .gender label {
+  font-size: 15px;
+}

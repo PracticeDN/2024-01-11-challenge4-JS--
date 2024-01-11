@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.swiper-slide {
+  position: relative;
+}
+
+img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  height: 100%;
+}
